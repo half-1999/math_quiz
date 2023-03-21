@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Pro', serif;
+    overflow: hidden;
+}
+body{
+    /* background-color: rgb(2, 128, 238); */
+}
+.title {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.timer-score {
+    display: flex;
+    color: black;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.score {
+
+    color: black;
+    width: 50%;
+    background-color: red;
+    /* margin-left: 20px; */
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    /* border-radius: 50%; */
+
+}
+
+.score:hover{
+    background-color: rgb(211, 0, 0);
+}
+
+.timer {
+
+    color: black;
+    width: 50%;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+    margin-right: 10px;
+    text-align: center;
+    /* border-radius: 50%; */
+}
+.timer:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.game-play {
+    background-repeat: round;
+    /* background-color: rgb(7, 218, 7); */
+    margin-top: 15px;
+    padding: 50px;
+    /* border: 1px solid blue ; */
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 306px;
+    margin: auto;
+    padding: 50px;
+    /* background-color: rgba(255, 255, 255, 0.925); */
+    /* border: 2px solid black; */
+    
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20%;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.box:hover{
+    background-color: rgb(209, 209, 209);
+    color: black;
+}
+
+.ques{
+    background-color:black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 35px;
+         font-weight: 900;
+         margin:auto;
+         /* margin-left: -6px; */
+         width: 390px;
+         border: 1px solid white;
+         border-radius: 20%;
+         box-shadow: inset;
+}
+/* .hide{
+    display: none;
+} */
+
+.close h1{
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 40px;
+    background-color: white;
+}
+
+
+/* // Media query */
+
+
+@media screen and (max-width: 425px) and (min-width: 0px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Crimson Pro', serif;
+        overflow: hidden;
+    }
+    .title {
+        background-color: black;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        padding: 10px;
+    }
+    
+    .timer-score {
+        display: flex;
+        color: black;
+        cursor: pointer;
+        margin: 5px;
+    }
+    
+    .score {
+        color: black;
+        width: 50%;
+        background-color: red;
+        text-align: center;
+        /* margin-left: 20px; */
+        padding: 10px;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 50%;
+    
+    }
+    
+    .timer {
+    
+        color: black;
+        width: 50%;
+        background-color: green;
+        padding: 10px;
+        color: white;
+        font-size: 25px;
+        margin-right: 10px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    
+    .game-play {
+        /* background-color: rgb(7, 218, 7); */
+        margin-top: 5px;
+        padding: 10px;
+        /* border: 1px solid blue ; */
+    }
+    
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 306px;
+        margin: auto;
+        padding: 50px;
+        /* background-color: rgba(255, 255, 255, 0.925); */
+        /* border: 2px solid black; */
+        
+    }
+    
+    .box {
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        color: white;
+        margin: auto;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 20%;
+        font-size: 40px;
+        cursor: pointer;
+    
+    }
+
+    .box:hover{
+        background-color: rgb(221, 219, 219);
+        color: black;
+    }
+
+    .ques{
+        background-color:black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 35px;
+         font-weight: 900;
+         margin-left: -6px;
+         width: 390px;
+         border: 1px solid white;
+         border-radius: 20%;
+         box-shadow: inset;
+    }
+}
+
+
